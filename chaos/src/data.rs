@@ -11,7 +11,7 @@ pub async fn process_data(Json(request): Json<DataRequest>) -> impl IntoResponse
         if val.is_string() {
             string_len += val.as_str().unwrap().len();
         } else if val.is_number() {
-            int_sum += val.as_u64();
+            int_sum += val.as_u64().unwrap();
         }
 
     }
@@ -30,6 +30,6 @@ pub struct DataRequest {
 
 #[derive(Serialize)]
 pub struct DataResponse {
-    string_len: u64,
+    string_len: usize,
     int_sum: u64
 }

@@ -1,0 +1,7 @@
+chaos/target
+chaos/debug
+
+chaos/Cargo.lock
+
+*.un*
+*.swp*

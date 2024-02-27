@@ -1,2 +1,5 @@
 Please detail the instructions to view your solution here:
+1. cd into 'unilectives-frontend' directory 
+2. After making sure your node version >= v18.0.0, run 'npm install' 
+3. Run 'npm run dev' or 'npm run start'
 

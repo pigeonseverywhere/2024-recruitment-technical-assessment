@@ -1,1 +1,0 @@
-/Users/yunshud/Dev/2024-recruitment-technical-assessment/chaos/target/debug/chaos-technical: /Users/yunshud/Dev/2024-recruitment-technical-assessment/chaos/src/data.rs /Users/yunshud/Dev/2024-recruitment-technical-assessment/chaos/src/main.rs
